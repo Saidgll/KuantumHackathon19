@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QPATİKA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="anasayfa.html">Q Patika </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="anasayfa.html">Ana Sayfa</a></li>
+                    <li><a href="hakkımızda.html">Hakkımızda</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1><p><b>KUANTUM KAPILARI</b></p></h1>
+            <img src="get.jpeg"><br>
+            <hr>
+            <p>En basit kuantum kapıları Pauli Kapıları olan X, Y ve Z kapılarıdır. Bunların eylemi Bloch küresinin x, y ve z eksenleri etrafında yarı bir dönüşünü gerçekleştirmektir. Bu nedenle klasik NOT kapısına veya bit çevirmeye benzer etkilere sahiptirler. X kapısının koşullar üzerindeki hareketi
+                 X| 0⟩= | 1⟩,
+                X| 1⟩= | 0⟩. 
+                Z kapısı koşullar üzerinde benzer bir etkiye sahiptir.
+                
+                Z| +⟩ = | -⟩,
+                Z| -⟩ = | +⟩.
+                
+                
+                Bu kapıların matris gösterimleri;
+                
+                   X =   0    1
+                    1 0   
+                
+                  Y =   0   -i
+                i    0   
+                
+                 Z =     1    0
+                    1 1   
+                 Bu matrisler üniter olduğu ve bu nedenle geri dönüşümlü bir kuantum işlemi tanımladığından, bu eklerin kuantum kapılar olarak yorumlanması da mümkündür.
+                
+                Hadamard Kapısı
+                Pauli Kapıları gibi, Hadamard da Bloch küresinin yarı dönme hareketidir. Aradaki fark, x ve z arasındaki yarı yolda bulunan bir eksen etrafında dönmesidir. Bu, z ekseni boyunca işaret eden ve x boyunca işaret edenlere dönen durumların etkisini verir.
+                H| 0⟩= | +⟩,  H| 1⟩= | -⟩,
+                H| +⟩= | 0⟩,  H| -⟩= | 1⟩.
+                
+                Bu etki onu x ölçüm yapmanın önemli bir parçası yapar, çünkü kuantum hesaplamanın arkasındaki donanım genellikle z ölçümünün doğrudan yapılmasına izin verir. X taban bilgisini z tabanına taşıyarak, x'in dolaylı bir ölçümünü sağlar.
+                CNOT Kapısı, iki-bitlik bir işlemdir; burada birinci kubit, genellikle kontrol kubit'i ve ikinci kubit hedef kubit olarak adlandırılır. Temel koşullarda ifade edilen CNOT kapısı:
+                    1  0  0  0       
+                    0  1  0  0        = CNOT
+                    0  0  0  1     
+                  0  0  1  0
+                kontrol kubit'ini değiştirmez ve hedef kubit üzerinde Pauli-X kapısı uygular | 1 ⟩ ;
+                Hedef qubit kontrol qubit durumunda olduğunda değişmeden kalır | 0 ⟩.
+                </p>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="container-fluid text-center">
+        <p>Q PATİKA</p>
+    </footer>
+
+</body>
+
+</html>
